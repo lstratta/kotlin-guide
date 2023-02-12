@@ -1,10 +1,3 @@
-CREATE TABLE IF NOT EXISTS super_hero (
-    id BIGINT,
-    name VARCHAR(40) NOT NULL,
-    normie_name VARCHAR(40),
-    PRIMARY KEY (id)
-);
-
 INSERT INTO super_hero(
     id,
     name,
